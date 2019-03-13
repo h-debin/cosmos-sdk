@@ -287,11 +287,10 @@ func printUsage() {
 Maintain unreleased changelog entries in a modular fashion.
 
 Commands:
-    add section stanza [message]    Add an entry file.
-                                    If message is empty, start the editor to edit
-                                    the message.
-    generate [version]              Generate a changelog in Markdown format and print
-                                    it to STDOUT. version defaults to UNRELEASED.
+    add [section] [stanza] [message]  Add an entry file. If message is empty, start 
+	                                  the editor to edit the message.
+    generate [version]                Generate a changelog in Markdown format and print
+                                      it to STDOUT. version defaults to UNRELEASED.
 
     Sections             Stanzas
          ---                 ---
